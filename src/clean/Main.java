@@ -17,7 +17,7 @@ public class Main {
 		//Used to get the all the files with extension .json in the folder specified
 		File[] fileList = GetFiles.getFileList("Resources/Data/Test/");
 		
-		//Uses external library json-simple
+		//Uses external library json-simple 
 		JSONParser parser = new JSONParser();
 		
 		try{
