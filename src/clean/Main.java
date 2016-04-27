@@ -71,6 +71,7 @@ public class Main {
 					
 				String mapName = (String) root.get("m_title");
 				String resultsMap = StringEscapeUtils.escapeJava(mapName);
+				resultsMap = replaceMapNames(resultsMap);
 					
 				long timestamp = (long) root.get("m_timeUTC");
 					
@@ -90,9 +91,11 @@ public class Main {
 					
 					//Escape UTF chars works with apache commons lang
 					String results = StringEscapeUtils.escapeJava(heroName);
+					results = replaceNames(results);
 						
 					String nickName = (String) hero.get("m_name");
 					String resultsNick = StringEscapeUtils.escapeJava(nickName);
+					
 						
 					long result = (long) hero.get("m_result");
 					long teamId = (long) hero.get("m_teamId");
@@ -136,6 +139,70 @@ public class Main {
 		} catch (Exception e){
 					e.printStackTrace();
 		}		
+	}
+	
+	private static String replaceNames(String name){
+		String englishName = "";
+		
+		switch(name){
+			case "Kael\\u00E2\\u0080\\u0099thas":
+				englishName = "Kael'thas";
+				break;
+			case "Rze\\u00C5\\u00BAnik":
+				englishName = "The Butcher";
+				break;
+			case "Por. Morales":
+				englishName = "Lt. Morales";
+				break;
+			case "Sylwana":
+				englishName = "Sylvanas";
+				break;
+			case "Leoryk":
+				englishName = "Leoric";
+				break;
+			case "Sonia":
+				englishName = "Sonya";
+				break;
+			case "Szarogrzywy":
+				englishName = "Greymane";
+				break;
+			case "Kleiner":
+				englishName = "Stitches";
+				break;
+			default:
+				englishName = name;
+				break;
+		}
+	
+		return englishName;
+		
+	}
+	
+	private static String replaceMapNames(String name){
+		String englishName = "";
+		
+		switch(name){
+			case "Przekl\\u00C4\\u0099ta Kotlina":
+				englishName = "Cursed Hollow";
+				break;
+			case "Pole Bitewne Wieczno\\u00C5\\u009Bci":
+				englishName = "Battlefield of Eternity";
+				break;
+			case "T\\u00C3\\u00BCrme des Unheils":
+				englishName = "Towers of Doom";
+				break;
+			case "H\\u00C3\\u00B6llenschreine":
+				englishName = "Infernal Shrines";
+				break;
+			case "Champs de l\\u00E2\\u0080\\u0099\\u00C3\\u0089ternit\\u00C3\\u00A9":
+				englishName = "Battlefield of Eternity";
+				break;
+			default:
+				englishName = name;
+				break;
+		}
+		
+		return englishName;
 	}
 
 }
