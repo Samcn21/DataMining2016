@@ -54,7 +54,7 @@ public class Main {
 		
 			//For every file
 			for(File file : fileList){
-				
+				System.out.println((file.getName()));
 				//Create lists and holders for attributes
 				List<String> blueHeroesList = new ArrayList<String>();
 				List<String> redHeroesList = new ArrayList<String>();
@@ -78,7 +78,7 @@ public class Main {
 					
 					
 				writer.append(file.getName()); //1
-				writer.append(',');
+				writer.append(';');
 					
 					
 				//For every hero
