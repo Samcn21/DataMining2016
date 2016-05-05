@@ -471,8 +471,72 @@ public class Main {
 			case "\\u00E9\\u0098\\u00BF\\u00E5\\u008A\\u00AA\\u00E5\\u00B7\\u00B4\\u00E6\\u008B\\u0089\\u00E5\\u0085\\u008B":
 				englishName = "Anub'arak";
 				break;
+			case "\\u00E7\\u00A9\\u0086\\u00E6\\u008B\\u0089\\u00E4\\u00B8\\u0081":
+				englishName = "Muradin";
+				break;
+			case "\\u00E6\\u0089\\u008E\\u00E5\\u008A\\u00A0\\u00E6\\u008B\\u0089":
+				englishName = "Zagara";
+				break;
+			case "\\u00E6\\u00A1\\u0091\\u00E5\\u00A8\\u0085":
+				englishName = "Sonya";
+				break;
+			case "\\u00E5\\u00A1\\u0094\\u00E8\\u0090\\u00A8\\u00E8\\u00BE\\u00BE\\u00E5\\u00B0\\u0094":
+				englishName = "Tassadar";
+				break;
+			case "\\u00E4\\u00B9\\u008C\\u00E7\\u0091\\u009F\\u00E5\\u00B0\\u0094":
+				englishName = "Uther";
+				break;
+			case "\\u00E6\\u009D\\u008E\\u00E5\\u00A5\\u00A5\\u00E7\\u0091\\u009E\\u00E5\\u0085\\u008B":
+				englishName = "Leoric";
+				break;
+			case "\\u00E5\\u00B8\\u008C\\u00E5\\u00B0\\u0094\\u00E7\\u0093\\u00A6\\u00E5\\u00A8\\u009C\\u00E6\\u0096\\u00AF":
+				englishName = "Sylvanas";
+				break;
+			case "\\u00D0\\u0093\\u00D0\\u00B0\\u00D0\\u00BB\\u00D0\\u00BB":
+				englishName = "Gall";
+				break;
+			case "\\u00D0\\u00A7\\u00D0\\u00BE":
+				englishName = "Cho";
+				break;
+			case "\\u00D0\\u009C\\u00D1\\u0083\\u00D1\\u0080\\u00D1\\u0087\\u00D0\\u00B0\\u00D0\\u00BB\\u00D1\\u008C":
+				englishName = "Murky";
+				break;
+			case "\\u00D0\\u0097\\u00D1\\u0083\\u00D0\\u00BB":
+				englishName = "Xul";
+				break;
+			case "\\u00D0\\u009B\\u00D0\\u00B8 \\u00D0\\u009B\\u00D0\\u00B8":
+				englishName = "Li Li";
+				break;
+			case "\\u00D0\\u00A2\\u00D0\\u00B0\\u00D0\\u00B9\\u00D0\\u00BA\\u00D1\\u0083\\u00D1\\u0081":
+				englishName = "Tychus";
+				break;
+			case "\\u00EB\\u00A0\\u0088\\u00EC\\u009D\\u00B4\\u00EB\\u0084\\u0088":
+				englishName = "Raynor";
+				break;
+			case "\\u00EB\\u00B9\\u009B\\u00EB\\u0082\\u0098\\u00EB\\u009E\\u0098":
+				englishName = "Brightwing";
+				break;
+			case "\\u00EB\\u00A3\\u00A8\\u00EB\\u0082\\u0098\\u00EB\\u009D\\u00BC":
+				englishName = "Lunara";
+				break;
+			case "\\u00EB\\u00A7\\u0090\\u00ED\\u0093\\u00A8\\u00EB\\u00A6\\u00AC\\u00EC\\u0098\\u00A8":
+				englishName = "Malfurion";
+				break;
+			case "Funkelchen":
+				englishName = "Brightwing";
+				break;
+			case "Mantogrigio":
+				englishName = "Greymane";
+				break;
+			case "Tte. Morales":
+				englishName = "Lt. Morales";
+				break;
+			case "Nazebo":
+				englishName = "Nazeebo";
+				break;
 				
 				
+				 
 			default:
 				englishName = name;
 				break;
@@ -576,6 +640,53 @@ public class Main {
 			case "\\u00D0\\u0091\\u00D0\\u00B0\\u00D1\\u0088\\u00D0\\u00BD\\u00D0\\u00B8 \\u00D0\\u00A0\\u00D0\\u00BE\\u00D0\\u00BA\\u00D0\\u00B0":
 				englishName = "Towers of Doom";
 				break;
+			case "\\u00E6\\u00B0\\u00B8\\u00E6\\u0081\\u0092\\u00E6\\u0088\\u0098\\u00E5\\u009C\\u00BA":
+				englishName = "Battlefield of Eternity";
+				break;
+			case "\\u00E7\\u0082\\u00BC\\u00E7\\u008B\\u00B1\\u00E5\\u009C\\u00A3\\u00E5\\u009D\\u009B":
+				englishName = "Infernal Shrines";
+				break;
+			case "\\u00E8\\u00AF\\u0085\\u00E5\\u0092\\u0092\\u00E8\\u00B0\\u00B7":
+				englishName = "Cursed Hollow";
+				break;
+			case "\\u00EA\\u00B3\\u00B5\\u00ED\\u008F\\u00AC\\u00EC\\u009D\\u0098 \\u00EC\\u00A0\\u0095\\u00EC\\u009B\\u0090":
+				englishName = "Garden of Terror";
+				break;
+			case "Tomba della Regina Ragno":
+				englishName = "Tomb of the Spider Queen";
+				break;
+			case "Schwarzherzbucht":
+				englishName = "Blackheart's Bay";
+				break;
+			case "Santuarios Infernales":
+				englishName = "Infernal Shrines";
+				break;
+			case "Cuenca Maldita":
+				englishName = "Cursed Hollow";
+				break;
+			case "Baia di Cuornero":
+				englishName = "Blackheart's Bay";
+				break;
+			case "Tours du destin":
+				englishName = "Towers of Doom";
+				break;
+			case "Tempel des Himmels":
+				englishName = "Sky Temple";
+				break;
+			case "Sanctuaires infernaux":
+				englishName = "Infernal Shrines";
+				break;
+			case "Val Maudit":
+				englishName = "Cursed Hollow";
+				break;
+			case "Piekielne Kapliczki":
+				englishName = "Infernal Shrines";
+				break;
+			case "Verfluchtes Tal":
+				englishName = "Cursed Hollow";
+				break;
+				
+				
 				
 				
 			default:
